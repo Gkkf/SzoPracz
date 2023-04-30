@@ -1,0 +1,202 @@
+/* Początek kodu, który ma za zadanie zresetować style automatycznie nadane przez przeglądarkę*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/* Koniec kodu, który ma za zadanie zresetować style automatycznie nadane przez przeglądarkę*/
+
+/* Kolor nadany dla strony*/
+body 
+{ 
+    background-color: #C5C5C5; 
+}
+
+/* Ustawienia klasy main dla sekcji głównej strony*/
+.main
+{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    background: black;
+}
+
+/* Ustawienia klasy header dla sekcji nagłówka*/
+.header
+{
+    width: 1000px;
+    height: 225px;
+    margin: auto;
+}
+
+/* Ustawienia ID dla logo*/
+#logo
+{
+    float: left;
+}
+
+/* Ustawienia klasy menubar dla sekcji paska menu*/
+.menubar
+{
+    width: 1000px;
+    height: 50px;
+    background-color: gray;
+    color: white;
+}
+
+/* Ustawienia ID menu dla paska menu*/
+#menu
+{
+    padding: 0;
+    margin: 0;
+    line-height: 50px;
+}
+
+/* Ustawienia listy li w menu*/
+#menu li
+{
+    list-style: none;
+    display: inline;
+}
+
+/* Ustawienia odnośnika a w menu*/
+#menu a
+{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    margin: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Ustawienia najechania na odnośnik a w menu*/
+#menu a:hover
+{
+    color: #C5C5C5;
+}
+
+/* Ustawienia paska wyszukiwania w pasku menu*/
+#form
+{
+    float: right;
+    padding-right: 8px;
+    line-height: 50px;
+}
+
+/* Ustawienia klasy content dla sekcji zawartości*/
+.content
+{
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+/* Ustawienia ID dla zawartości*/
+#content_area
+{
+    width: 800px;
+    float: left;
+    background-color: white;
+}
+
+/* Ustawienia ID dla paska bocznego*/
+#sidebar
+{
+    width: 200px;
+    height: 800px;
+    background-color: black;
+    float: right;
+}
+
+/* Ustawienia ID dla tytułów obiektów w pasku bocznym*/
+#sidebar_title
+{
+    background-color: white;
+    color: black;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Ustawienia ID kategorii w pasku bocznym*/
+#categories
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Ustawienia listy li w pasku bocznym*/
+#categories li
+{
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+/* Ustawienia odnośnika a w pasku bocznym*/
+#categories a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Ustawienia najechania na odnośnik a w posku bocznym*/
+#categories a:hover
+{
+    color: #C5C5C5;
+}
+
+/* Ustawienia ID dla przedmiotów*/
+#products_box
+{
+    width: 780px;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+/* Ustawienia ID dla paska koszyka*/
+#shopping_cart
+{
+    width: 800px;
+    height: 50px;
+    background-color: #C5C5C5;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Ustawienia ID dla stopki*/
+#footer
+{
+    width: 1000px;
+    height: 100px;
+    background-color: gray;
+    clear: both;
+}
+
